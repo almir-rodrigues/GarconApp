@@ -3,4 +3,4 @@
 
 ***
 ## Build
-Para montar pode-se utilizar o comando `cordova prepare` para baixar os arquivos necessários. Vale lembrar que o App só está disponivel para plataforma Android. :v:
+Antes de montar pode-se utilizar o comando `cordova prepare` para baixar os arquivos necessários que foram adicionados no gitignore. Vale lembrar que no momento o App só está disponivel para plataforma Android. :v:
