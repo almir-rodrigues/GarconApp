@@ -58,9 +58,11 @@ $('.acao-finalizar').on('click', function() {
             Materialize.toast(erro.responseText, 3000, 'red-text');
         },
         success: function(dados){
-            Materialize.toast(dados, 2000);
+            navigator.vibrate(500);
+            Materialize.toast(dados, 3000);
             $('#numero-mesa').val('');
             $('.badge').remove();
+
         }
     });
 });
