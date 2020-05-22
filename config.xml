@@ -92,5 +92,5 @@
 	</platform>
 
 	<!-- Plataforma Android -->
-	<engine name="android" />
+	<engine name="android" spec="5.0.0" />
 </widget>
